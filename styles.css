@@ -1,0 +1,152 @@
+@font-face {
+    src: url("fonts/Pacifico.ttf");
+    font-family: "Pacifico";
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("fonts/Karla-Regular.ttf");
+    font-family: "Karla"; 
+    font-weight: normal; 
+}
+
+h1, h2, h3 {
+    font-family: "Pacifico", Arial, sans;
+    font-size: 40px;
+}
+
+/* General */
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;  
+}
+
+
+.small-heading {
+    font-size: 4em;
+}
+
+.medium-heading {
+    font-size: 4em;
+}
+
+.large-heading {
+    font-size: 4em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Header */
+header {
+    background: black;
+    width: 100%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+}
+
+header nav a {
+    color: white; 
+}
+
+main div a {
+    color: black; 
+}
+
+/*desktop breakpoint
+@media (min-width: 600px);
+.images {
+    flex direction: row; 
+    justify-content: space-around; 
+
+.images img {*/
+
+* {
+    font-family: "Karla"; 
+}
+
+/* Masthead */
+.masthead {
+    background: url("images/kayak-bkgd.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 10em 0;
+}
+
+.masthead .center-text {
+    width: 100%;
+    color: white;
+    margin: 0.25em 0;
+} 
+
+.masthead p {
+    width: 80%;
+    color: white;
+    margin: 0.5em auto;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.75em;
+    text-align: center;
+    padding: 0.75em 1em;
+}
+
+.masthead a {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em;
+    width: 40%;
+    background-color: #e2574c;
+    border-radius: 60px;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+table {
+    text-align: center;
+    font-size: 25px; 
+    margin: auto;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
