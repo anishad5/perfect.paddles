@@ -97,9 +97,18 @@ main div a {
 
 /* Masthead */
 .masthead {
-    background: url("images/kayak-bkgd.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.2), white), 
+        url("images/kayak-bkgd.jpg");
+    background-repeat:
+        no-repeat,
+        no-repeat; 
+    background-size:
+        cover,
+        cover;
+    background-position: 
+        center center,
+        center center;
 
     padding: 10em 0;
 }
@@ -150,3 +159,20 @@ iframe {
     margin: auto;
     width: 100%;
 }
+
+/* Table Boarder */ 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 15px;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 1140px) {
+}
+
