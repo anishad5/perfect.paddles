@@ -235,12 +235,12 @@ table, th, td {
 @media screen and (min-width: 600px) {
     section#rental div {
         flex-direction: row;
-        padding: 25px;
+        padding: 60px;
     }
     
     table {
         text-align: right;
-        padding: 25px;
+        padding: 15px;
     }
 
     .images {
